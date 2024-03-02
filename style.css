@@ -1,421 +1,412 @@
 * {
-    margin: 0;
-    font-family: 'Poppins';
+  margin: 0;
+  font-family: "Poppins";
 }
 
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* NAVBAR */
 .nav h1 {
-    color: white;
-    letter-spacing: 5px;
-    margin-left: 30px;
-    display: block;
+  color: white;
+  letter-spacing: 5px;
+  margin-left: 30px;
+  display: block;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    text-shadow: rgb(73, 73, 73) 1px 0 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  text-shadow: rgb(73, 73, 73) 1px 0 10px;
 }
 
 a:hover {
-    color: #93cfd2;
+  color: #93cfd2;
 }
 
 a:active {
-color: #348b90;
+  color: #348b90;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between; /* This will push items to the right */
-    align-items: center;
-    padding: 20px; /* Add padding for spacing */
-    background-color: #624759;
+  display: flex;
+  justify-content: space-between; /* This will push items to the right */
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+  background-color: #624759;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
-
-@media screen and (max-width: 1005px) {
-   
-     nav {
-        display: none;
-    } 
-
-    .nav {
-        display: block;
-        text-align: center;
-        min-width: 23.95rem;
-    /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
-}
-}
-	
 
 /* BANNER */
 .banner {
-    background-image: url(resources/bannertwo.png);
-    min-height: 42rem;
-    min-width: 100%;
-    display: flex; 
-    background-size: cover;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;  
-    margin-bottom: 50px;
-
+  background-image: url(resources/bannertwo.png);
+  min-height: 42rem;
+  min-width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
 .banner-box {
-    background-color: #E0FE9C;
-    border-radius: 10px;
-    height: 18.75rem;
-    width: 26.25rem;
-    margin: 30px 10px 10px 10px;
+  background-color: #e0fe9c;
+  border-radius: 10px;
+  height: 18.75rem;
+  width: 26.25rem;
+  margin: 30px 10px 10px 10px;
 }
 
 #two {
-    align-self: flex-end; /* Align the second box to the flex end */
-    margin-left: auto; 
+  align-self: flex-end; /* Align the second box to the flex end */
+  margin-left: auto;
 }
 
 #one h3 {
-    padding: 30px 20px 10px 20px;
+  padding: 30px 20px 10px 20px;
 }
 #two h2 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
- .banner h2, h3 {
-    color: #166569;
-    font-family: 'Quicksand';
-    padding-top: 30px;
-    text-align: center;
+.banner h2,
+h3 {
+  color: #166569;
+  font-family: "Quicksand";
+  padding-top: 30px;
+  text-align: center;
 }
-
-
-@media screen and (max-width: 1024px) {
-    .banner {
-        display: flex;
-        flex-direction: column; /* Change flex direction to stack boxes vertically */
-        align-items: center; /* Center align items */
-        height: 48rem;
-        justify-content: space-between;
-        min-width: 23.95rem;
-        padding: 1rem 0;
-    }
-
-    .banner-box {
-        background-color: rgb(224, 255, 153, 0.7);
-        max-width: 22rem;
-    }
-
-    #one {
-        margin: 50px 0 20px 0;
-    }
-    #two {
-        align-self: center; /* Reset align-self property */
-        margin-top: 20px;
-        margin-left: 0; /* Reset margin */
-    }
-}
-
-/* @media screen and (max-width: 780px) {
-    .box {
-        width: 80%;
-        margin: 10px 0;
-        height: 18rem;
-    }
-}  */
 
 /* RESERVATION */
 
 .reservations {
-    background-color: white;
+  background-color: white;
 }
 
-.reservations h1, h2 {
-    color: #624759;
-    text-align: center;
+.reservations h1,
+h2 {
+  color: #624759;
+  text-align: center;
 }
 
 .reservations h2 {
-    padding: 40px 200px;
-}
-
-@media screen and (max-width: 840px) {
-    .reservations h2 {
-        padding: 50px;
-    }
-
-    .reservations {
-        min-width: 23.95rem;
-    }
-   
+  padding: 40px 200px;
 }
 
 /* DONATIONS */
 .donations {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* aligns 'or' */
-    padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* aligns 'or' */
+  padding-bottom: 100px;
 }
 
-
 .button-container {
-    background-color: #166569;
-    border-radius: 10px;
-    height: 12rem;
-    width: 20rem;
-    margin: 30px 10px;
-    display: flex;
-    flex-direction: column; /* Stack button and text */
-    justify-content: space-between; /* Spacing between button and text */
-    align-items: center; /* Center items horizontally */
-    padding: 20px; /* Add padding */
+  background-color: #166569;
+  border-radius: 10px;
+  height: 12rem;
+  width: 20rem;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column; /* Stack button and text */
+  justify-content: space-between; /* Spacing between button and text */
+  align-items: center; /* Center items horizontally */
+  padding: 20px; /* Add padding */
 }
 
 button {
-    height: 70px;
-    width: 150px;
-    border-radius: 8px;
-    background-color: #E0FE9C;
-    color: #624759;
-    border: 2px solid #E0FE9C;
-    font-size: large;
-    font-weight: bold;
+  height: 70px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #e0fe9c;
+  color: #624759;
+  border: 2px solid #e0fe9c;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* Hover Effect */
 button:hover {
-    background-color: #a0c057;
-    color: #fff;
-    transform: scale(1.05);
+  background-color: #a0c057;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 /* Click Effect */
 button:active {
-    background-color: #439397;
-    transform: scale(0.95);
+  background-color: #439397;
+  transform: scale(0.95);
 }
 
 .h2-donate {
-    color: #E0FE9C;
-    text-align: center;
-    padding: 0 30px
+  color: #e0fe9c;
+  text-align: center;
+  padding: 0 30px;
 }
 
 .or {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
-    @media screen and (max-width: 700px) {
-        .donations {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-width: 23.95rem;
-        }
-    }
-
-    /* CAFE MENU */
-    .cafe-menu {
-        background-color: #624759;
-        padding: 1rem;
-    }
-
-    .menu {
-        text-align: center;
-        color: #E0FE9C;
-        padding-top: 20px;
-        padding-bottom: 35px;
-        letter-spacing: .4rem;
-        font-size: 50px;
-    }
-
-    .main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        justify-content: space-evenly;
-        width: 100%;
-        place-items: center;
-      }
-    
-    img {
-        border-radius: 150px;
-        width: 18.75rem;
-        height: 18.75rem;
-        object-fit: cover;
-    }
-
-    .drinkscat {
-        filter: brightness(125%);
-    }
-
-    .cafe {
-        text-align: center;
-        max-width: 350px;
-        min-height: 700px;
-        padding: 20px;
-    }
-
-    .description {
-        color: white;
-        text-align: left;
-        max-width: 275px;
-    }
-
-    .item {
-        padding: 20px;
-        color: white;
-    }
-
-    .know-more-button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-    .special-events {
-        color: white;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    
-    .contact-us-button {
-        height: 70px;
-        width: 200px;
-        border-radius: 8px;
-        background-color: #E0FE9C;
-        color: #624759;
-        border: 2px solid #E0FE9C;
-        font-size: large;
-        font-weight: bold;
-        margin: 20px;
-    }
-
-    @media screen and (max-width: 1050px) {
-       
-        .cafe {
-            max-width: 700px;
-            min-height: 400px;
-        }
-        .main {
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Center items horizontally */
-            justify-content: center;
-        }
-    
-        .description {
-            text-align: center;
-            max-width: 600px;
-        }
-        
-        img {
-        border-radius: 200px;
-        width: 20rem;
-        height: 20rem;
-        object-fit: cover;
-    }
-
-        .cafe-menu {
-            min-width: 23.95rem;
-            padding: 0;
-        }
-    }
-
-
-    /* GALLERY */
-
- .gallery-container {
-    height: 100%;
-    display: flex;
-    background-color:#E0FE9C;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 16px 0;
-    align-items: stretch;
-    width: 100%;
+/* CAFE MENU */
+.cafe-menu {
+  background-color: #624759;
+  padding: 1rem;
 }
-      
- .box {
-    height: 200px;
-    width: 300px;
-    background-color: dodgerblue;
-    display: inline-block;
-    background-size: cover;
- }
 
- #img1 {
-    background-image: url(./resources/cozybb.png);
- }
+.menu {
+  text-align: center;
+  color: #e0fe9c;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  letter-spacing: 0.4rem;
+  font-size: 50px;
+}
 
- #img2 {
-    background-image: url(./resources/happymeowur.png);
- }
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+  place-items: center;
+}
 
- #img3 {
-    background-image: url(./resources/guyandcat.png);
- }
+img {
+  border-radius: 150px;
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
 
- #img4 {
-    background-image: url(./resources/coffee.png);
- }
+.drinkscat {
+  filter: brightness(125%);
+}
 
- #img5 {
-    background-image: url(./resources/sleepykitty.jpg);
- }
+.cafe {
+  text-align: center;
+  max-width: 350px;
+  min-height: 700px;
+  padding: 20px;
+}
 
- #img6 {
-    background-image: url(./resources/family.png);
- }
+.description {
+  color: white;
+  text-align: left;
+  max-width: 275px;
+}
 
- #img7 {
-    background-image: url(./resources/kittyglare.png);
- }
+.item {
+  padding: 20px;
+  color: white;
+}
 
- #img8 {
-    background-image: url(./resources/scratchykitty.jpg);
- }
+.know-more-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- @media screen and (max-width: 355px) {
-    .gallery-container{
-        width: 23.95rem;
-        padding: 20px 0;
-    }
- }
- /* FOOTER */
+.special-events {
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact-us-button {
+  height: 70px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #e0fe9c;
+  color: #624759;
+  border: 2px solid #e0fe9c;
+  font-size: large;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* GALLERY */
+
+.gallery-container {
+  height: 100%;
+  display: flex;
+  background-color: #e0fe9c;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px 0;
+  align-items: stretch;
+  width: 100%;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: dodgerblue;
+  display: inline-block;
+  background-size: cover;
+}
+
+#img1 {
+  background-image: url(./resources/cozybb.png);
+}
+
+#img2 {
+  background-image: url(./resources/happymeowur.png);
+}
+
+#img3 {
+  background-image: url(./resources/guyandcat.png);
+}
+
+#img4 {
+  background-image: url(./resources/coffee.png);
+}
+
+#img5 {
+  background-image: url(./resources/sleepykitty.jpg);
+}
+
+#img6 {
+  background-image: url(./resources/family.png);
+}
+
+#img7 {
+  background-image: url(./resources/kittyglare.png);
+}
+
+#img8 {
+  background-image: url(./resources/scratchykitty.jpg);
+}
+
+/* FOOTER */
 footer {
-    padding: 30px 0;
-    background-color: #166569;
-    width: auto;
-    text-align: center;
-    
+  padding: 30px 0;
+  background-color: #166569;
+  width: auto;
+  text-align: center;
 }
 
 .contact-head {
-    color: white;
-
+  color: white;
 }
 
 .contact {
-    color: white;
-    display: inline-block;
-    padding: 30px;
-    text-decoration: underline;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 355px) {
-    footer {
-        min-width: 23.95rem;
-    }
- }
+  footer {
+    min-width: 23.95rem;
+  }
+
+  .gallery-container {
+    width: 23.95rem;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  nav {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    text-align: center;
+    min-width: 22rem;
+    /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    display: flex;
+    flex-direction: column; /* Change flex direction to stack boxes vertically */
+    align-items: center; /* Center align items */
+    height: 48rem;
+    justify-content: space-between;
+    min-width: 23.95rem;
+    padding: 1rem 0;
+  }
+
+  .banner-box {
+    background-color: rgb(224, 255, 153, 0.7);
+    max-width: 22rem;
+  }
+
+  #one {
+    margin: 50px 0 20px 0;
+  }
+  #two {
+    align-self: center; /* Reset align-self property */
+    margin-top: 20px;
+    margin-left: 0; /* Reset margin */
+  }
+}
+
+/* @media screen and (max-width: 780px) {
+      .box {
+          width: 80%;
+          margin: 10px 0;
+          height: 18rem;
+      }
+  }  */
+
+@media screen and (max-width: 840px) {
+  .reservations h2 {
+    padding: 50px;
+  }
+
+  .reservations {
+    min-width: 23.95rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .donations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 23.95rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .cafe {
+    max-width: 700px;
+    min-height: 400px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+  }
+
+  .description {
+    text-align: center;
+    max-width: 600px;
+  }
+
+  img {
+    border-radius: 200px;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+
+  .cafe-menu {
+    min-width: 23.95rem;
+    padding: 0;
+  }
+}
