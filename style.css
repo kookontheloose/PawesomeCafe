@@ -330,7 +330,7 @@ footer {
   .nav {
     display: block;
     text-align: center;
-    min-width: 22rem;
+    width: auto;
     /* I was targeting .nav h1 to center the h1 but I needed to tag the whole class itself */
   }
 }
