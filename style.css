@@ -315,7 +315,9 @@ footer {
   }
 
   #one h3,
-  #two h3 {
+  #two h3,
+  #one h2,
+  #two h2 {
     padding: 5px;
   }
 }
@@ -347,6 +349,7 @@ footer {
   .banner-box {
     background-color: rgb(224, 255, 153, 0.7);
     max-width: 22rem;
+    max-height: 18rem;
     padding: 0px;
   }
 
