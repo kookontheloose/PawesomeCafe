@@ -304,7 +304,7 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 395px) {
   footer {
     min-width: 23.95rem;
   }
@@ -312,6 +312,10 @@ footer {
   .gallery-container {
     width: 23.95rem;
     padding: 20px 0;
+  }
+
+  #two h3 {
+    padding-top: 10px;
   }
 }
 
@@ -342,6 +346,7 @@ footer {
   .banner-box {
     background-color: rgb(224, 255, 153, 0.7);
     max-width: 22rem;
+    padding: 0px;
   }
 
   #one {
