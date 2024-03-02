@@ -310,12 +310,13 @@ footer {
   }
 
   .gallery-container {
-    width: 23.95rem;
+    width: 100%;
     padding: 20px 0;
   }
 
+  #one h3,
   #two h3 {
-    padding-top: 10px;
+    padding: 5px;
   }
 }
 
